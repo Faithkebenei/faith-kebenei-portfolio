@@ -1,15 +1,19 @@
 import React from "react";
 
-const Button = ({backgroundColor, color, text}) => {
-    const ButtonStyles = {
+import styles from "./Button.module.scss";
+
+const Button = ({backgroundColor, color, text, border}) => {
+    const buttonStyles = {
         backgroundColor: backgroundColor,
         color: color,    
+        border: border,
+        
     }
     return (
         <>
-        <Button styles={{ButtonStyles}}>
+        <button style={buttonStyles} className={styles.button}>
             {text}
-        </Button>
+        </button>
         </>
     )
 }
