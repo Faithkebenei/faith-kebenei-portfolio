@@ -1,0 +1,26 @@
+.service {
+    width: 250px;
+    height: 300px;
+    background-color: transparent;
+    border: 2px solid #FF7C36;
+    margin: 30px 60px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.heading {
+    color: #fff;
+}
+
+.text{
+    color: #D3D3D3;
+    font-size: 14px;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+}

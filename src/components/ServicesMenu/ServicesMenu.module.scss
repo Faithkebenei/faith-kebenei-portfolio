@@ -1,0 +1,45 @@
+.servicesMenu {
+    //height: 100vh;
+    margin: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading h4{
+    color: #fff;
+    font-size: 36px;
+}
+
+.heading h4 span {
+    color: #FF7C36;
+}
+
+.text {
+    width: 60%;
+    text-align: center;
+}
+
+.text p{
+    color: #D3D3D3;
+}
+
+.topServiceContainers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bottomServiceContainers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    border: 3px solid #FF7C36;
+    border-radius: 10px;
+    width: 100px;
+}
