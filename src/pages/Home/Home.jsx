@@ -29,9 +29,9 @@ const Home = () => {
                 <ServicesMenu />
             </div>
         
-            {/* <div id="skills">
+            <div id="skills">
                 <SkillsMenu />
-            </div> */}
+            </div>
 
             <div className={styles.footer}>
                 <Footer />
