@@ -6,6 +6,7 @@ import Footer from "../../components/Footer/Footer";
 import HomeMenu from "../../components/HomeMenu/HomeMenu";
 import AboutMenu from "../../components/AboutMenu/AboutMenu";
 import ServicesMenu from "../../components/ServicesMenu/ServicesMenu";
+import SkillsMenu from "../../components/SkillsMenu/SkillsMenu";
 
 const Home = () => {
     

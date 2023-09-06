@@ -1,0 +1,22 @@
+.skills {
+    margin: 40px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading h4{
+    color: #fff;
+    font-size: 36px;
+}
+
+.heading h4 span {
+    color: #FF7C36;
+}
+
+.skill {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 100px
+}
