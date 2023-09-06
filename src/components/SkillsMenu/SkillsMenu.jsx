@@ -27,7 +27,7 @@ const SkillsMenu = () => {
                 <Skill icon={html} name="HTML"/>
                 <Skill icon={css} name="CSS"/>
                 <Skill icon={js} name="JavaScript"/>
-                <Skill icon={react} name="ReactJS"/>
+                <Skill icon={react} name="React JS"/>
                 <Skill icon={php} name="PHP"/>
                 <Skill icon={node} name="NodeJS"/>
                 <Skill icon={jquery} name="JQuery"/>

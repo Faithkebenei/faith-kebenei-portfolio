@@ -17,6 +17,10 @@ const Header = () => {
         setHoveredMenu();
     }
 
+    const redirectToContact = () => {
+        window.location.href = "#contact"
+    }
+
 
     return (
         <>
@@ -31,7 +35,7 @@ const Header = () => {
                     <li><a onMouseEnter={() => handleHover(5)} onMouseLeave={() => handleUnHover(5)} id={5} style={{color: hovered && hoveredMenu === 5? "#FF7C36": "#fff"}} href="#skills">Skills</a></li>
                 </ul>
                 <div className={styles.button}>
-                    <Button backgroundColor="#FF7C36" color="#fff" text="Hire Me" border="none" />
+                    <Button backgroundColor="#FF7C36" color="#fff" text="Hire Me" border="none" clicked={redirectToContact} />
                 </div>
                 <div className={styles.button}>
                     <Button backgroundColor="transparent" color="#fff" text="Download CV" border="2px solid #FF7C36" />

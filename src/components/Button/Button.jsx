@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./Button.module.scss";
 
-const Button = ({backgroundColor, color, text, border}) => {
+const Button = ({backgroundColor, color, text, border, clicked}) => {
     const buttonStyles = {
         backgroundColor: backgroundColor,
         color: color,    
@@ -11,7 +11,7 @@ const Button = ({backgroundColor, color, text, border}) => {
     }
     return (
         <>
-        <button style={buttonStyles} className={styles.button}>
+        <button style={buttonStyles} className={styles.button} onClick={clicked}>
             {text}
         </button>
         </>

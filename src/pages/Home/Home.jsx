@@ -7,6 +7,7 @@ import HomeMenu from "../../components/HomeMenu/HomeMenu";
 import AboutMenu from "../../components/AboutMenu/AboutMenu";
 import ServicesMenu from "../../components/ServicesMenu/ServicesMenu";
 import SkillsMenu from "../../components/SkillsMenu/SkillsMenu";
+import ContactMenu from "../../components/ContactMenu/ContactMenu";
 
 const Home = () => {
     
@@ -32,6 +33,10 @@ const Home = () => {
         
             <div id="skills">
                 <SkillsMenu />
+            </div>
+
+            <div id="contact">
+                <ContactMenu />
             </div>
 
             <div className={styles.footer}>
