@@ -1,48 +1,48 @@
 .servicesMenu {
-    //height: 100vh;
-    margin: 40px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  //height: 100vh;
+  margin: 40px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.heading h4{
-    color: #fff;
-    font-size: 36px;
+.heading h4 {
+  color: #fff;
+  font-size: 36px;
 }
 
 .heading h4 span {
-    color: #FF7C36;
+  color: #41bcc5;
 }
 
 .text {
-    width: 60%;
-    text-align: center;
+  width: 60%;
+  text-align: center;
 }
 
-.text p{
-    color: #D3D3D3;
-    line-height: 180%;
-    letter-spacing: 0.5px;
-    font-size: 16px;
+.text p {
+  color: #d3d3d3;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  font-size: 16px;
 }
 
 .topServiceContainers {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .bottomServiceContainers {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 hr {
-    border: 3px solid #FF7C36;
-    border-radius: 10px;
-    width: 100px;
+  border: 3px solid #41bcc5;
+  border-radius: 10px;
+  width: 100px;
 }

@@ -1,29 +1,29 @@
 .service {
-    width: 250px;
-    height: 320px;
-    background-color: transparent;
-    border: 2px solid #FF7C36;
-    margin: 30px 60px;
-    padding: 10px;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-    // flex-direction: column;
-    text-align: center;
-    position: relative;
+  width: 250px;
+  height: 320px;
+  background-color: transparent;
+  border: 6px solid #ea5184;
+  margin: 30px 60px;
+  padding: 10px;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // flex-direction: column;
+  text-align: center;
+  position: relative;
 }
 
 .heading {
-    color: #fff;
+  color: #fff;
 }
 
-.text{
-    color: #D3D3D3;
-    line-height: 170%;
-    letter-spacing: 0.5px;
-    font-size: 13px;
-    width: 90%;
-    position: absolute;
-    left: 5%;
-    right: 5%;
+.text {
+  color: #d3d3d3;
+  line-height: 170%;
+  letter-spacing: 0.5px;
+  font-size: 13px;
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  right: 5%;
 }
