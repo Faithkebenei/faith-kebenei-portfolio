@@ -6,6 +6,7 @@ import Footer from "../../components/Footer/Footer";
 import HomeMenu from "../../components/HomeMenu/HomeMenu";
 import AboutMenu from "../../components/AboutMenu/AboutMenu";
 import ServicesMenu from "../../components/ServicesMenu/ServicesMenu";
+import Projects from "../../components/Projects/Projects";
 import SkillsMenu from "../../components/SkillsMenu/SkillsMenu";
 import ContactMenu from "../../components/ContactMenu/ContactMenu";
 
@@ -24,9 +25,13 @@ const Home = () => {
           <AboutMenu />
         </div>
 
-        <div id="services">
+        {/* <div id="services">
           <ServicesMenu />
-        </div>
+        </div> */}
+
+        {/* <div id="projects">
+          <Projects />
+        </div> */}
 
         <div id="skills">
           <SkillsMenu />

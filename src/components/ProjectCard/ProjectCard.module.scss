@@ -1,0 +1,15 @@
+.ProjectCard {
+  width: 700px;
+  height: 700px;
+}
+
+.imageContainer {
+  height: 70%;
+  width: 100%;
+}
+
+.imageContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
